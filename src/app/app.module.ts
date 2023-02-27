@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavegacionComponent } from './navegacion/navegacion.component';
 import { GalleryImagesComponent } from './gallery-images/gallery-images.component';
+import { DiscographyComponent } from './discography/discography.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavegacionComponent,
-    GalleryImagesComponent
+    GalleryImagesComponent,
+    DiscographyComponent
   ],
   imports: [
     BrowserModule,

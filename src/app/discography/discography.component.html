@@ -1,0 +1,15 @@
+<section id="discographyID">
+    <h1>{{heading1}}</h1>
+    <p>{{description}}</p>
+    
+    <div *ngFor="let disco of discos">    
+            <div class="card" style="width: 18rem;"> 
+                <div class="card-body">
+                  <h5 class="card-title">{{disco.title}}</h5>
+                  <img src="{{disco.img}}" alt="Mac Miller">      
+                  <a href= {{disco.link}} class="btn btn-primary">Learn more</a>
+                </div>
+              </div>  
+    
+    </div>
+</section>
